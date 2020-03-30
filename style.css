@@ -1,0 +1,46 @@
+body {
+  background-color: #777;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #ccc;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 3em;
+}
+
+hr {
+  border: solid 2px black;
+  margin-bottom: 3em;
+}
+
+#game-grid {
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "top-left     top-center      top-right"
+    "mid-left     mid-center      mid-right"
+    "bottom-left  bottom-center   bottom-right";
+  width: 50vh;
+  height: 50vh;
+}
+
+.cell {
+  border: solid 1px black;
+}
+
+#top-left {
+  grid-area: "top-left";
+}
+#top-center {
+  grid-area: "top-center";
+}
+#top-right {
+  grid-area: "top-right";
+}
