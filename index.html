@@ -11,20 +11,21 @@
       <hr />
     </header>
     <main>
-      <div id="game-container">
-        <div id="game-grid">
-          <div class="cell" id="top-left"></div>
-          <div class="cell" id="top-center"></div>
-          <div class="cell" id="top-right"></div>
-          <div class="cell" id="mid-left"></div>
-          <div class="cell" id="mid-center"></div>
-          <div class="cell" id="mid-right"></div>
-          <div class="cell" id="bottom-left"></div>
-          <div class="cell" id="bottom-center"></div>
-          <div class="cell" id="bottom-right"></div>
-        </div>
+      <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
       </div>
-      <div id="score-container"></div>
+      <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+      </div>
     </main>
   </body>
   <script src="script.js"></script>
