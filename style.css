@@ -1,5 +1,5 @@
 :root {
-  --cell-size: 10em;
+  --cell-size: 8em;
   --mark-size: calc(var(--cell-size) * 0.9);
 }
 
